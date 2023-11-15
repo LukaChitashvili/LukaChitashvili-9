@@ -12,8 +12,8 @@ ul {
 li a {
   margin-top: -30px;
   margin-right: 50px;
-  font-family: Helvetica;
-  font-size: 17px;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0em;
@@ -26,4 +26,72 @@ li a {
   width: 33px;
   height: 42px;
   vertical-align: middle;
+}
+
+section {
+  margin-top: 18px;
+}
+.banner {
+  background-image: url(../images/image.png);
+  background-repeat: no-repeat;
+  height: 606px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.banner h1 {
+  font-family: helvetica, sans-serif;
+  font-size: 79px;
+  font-weight: 700;
+  line-height: 91px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.banner h2 {
+  font-family: helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 91px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-top: 84px;
+}
+
+.content h3 {
+  font-family: helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #636060;
+}
+
+section .h3 {
+  font-family: helvetica, sans-serif;
+  width: 214px;
+  height: 32px;
+  margin-top: 9px;
+  color: #010101;
+  font-size: 28px;
+}
+
+.h33 {
+  width: 235px;
+  height: 115px;
+  margin-top: 20px;
 }
