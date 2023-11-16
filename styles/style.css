@@ -107,15 +107,13 @@ section .h3 {
 .up {
   translate: 0px -200px;
   display: flex;
+  margin-left: 850px;
 }
 
 .up img {
   margin-right: 33px;
   width: 286px;
   height: 195px;
-}
-
-.up h4 {
 }
 
 p {
@@ -141,4 +139,16 @@ h4 {
   line-height: 22px;
   letter-spacing: 0em;
   text-align: left;
+}
+
+.down {
+  display: flex;
+  translate: -957.5px;
+  margin-top: 170px;
+}
+
+.down img {
+  width: 286px;
+  height: 195px;
+  margin-right: 33px;
 }
